@@ -1,4 +1,3 @@
-import React from "react";
 import { Footer } from "flowbite-react";
 import {
   BsFacebook,
@@ -30,9 +29,9 @@ export default function FooterCom() {
           <Footer.Icon href="#" icon={BsDiscord} />
         </div>
         <div className="flex justify-center items-center">
-            <Footer.Copyright href='#' by='Nabhan Nisham KM.' year={new Date().getFullYear()} />
+            <Footer.Copyright href='#' by='Nabhan Nisham KM. &nbsp;' year={new Date().getFullYear()} />
             <p className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                All rights reserved.
+                 All rights reserved.
             </p>
         </div>
       </div>
